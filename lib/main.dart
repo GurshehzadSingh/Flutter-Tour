@@ -29,3 +29,7 @@ class MyApp extends StatelessWidget {
    );
   }
 }
+// widget tree -> element tree->render tree.
+// Widgets are immutable whereas elements can update themselves
+// size go up, constraints go down, body sets the position.
+// context is just an element which tells location of widget in the tree.
